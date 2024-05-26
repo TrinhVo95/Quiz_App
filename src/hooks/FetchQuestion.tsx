@@ -27,7 +27,7 @@ export const useFetchQuestion = () => {
     (async () => {
       try {
         const [{ questions, answers }] = await getServerData(
-          `${process.env.REACT_APP_SERVER_HOSTNAME}/api/questions`
+          "https://testapi-tan-five.vercel.app/api/questions"
         );
         // console.log(process.env.REACT_APP_SERVER_HOSTNAME);
         if (questions?.length > 0) {

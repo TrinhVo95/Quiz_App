@@ -64,7 +64,7 @@ export const userPublishResult = (resultData: {
       if (result.length !== 0 && !userName)
         throw new Error("Couldn't get result");
       await postServerData(
-        `${process.env.REACT_APP_SERVER_HOSTNAME}/api/result`,
+        "https://testapi-tan-five.vercel.app/api/result",
         resultData,
         (data) => data
       );
