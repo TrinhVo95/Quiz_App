@@ -1,0 +1,36 @@
+.notfound {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.notfound-404 h1 {
+  font-size: 230px;
+  margin: 0;
+  font-weight: 900;
+  background: url("../image/bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: montserrat, sans-serif;
+}
+.notfound p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 20px auto;
+  max-width: 410px;
+}
+.homeBtn {
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #1c1a5e;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 700;
+  -webkit-box-shadow: 0 4px 15px -5px #0046d5;
+  box-shadow: 0 4px 15px -5px #0046d5;
+}
